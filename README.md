@@ -16,8 +16,6 @@ Dự án cài đặt và thực nghiệm 3 mẫu thiết kế Agentic AI (ReAct,
 | `llm_factory.py` | Khởi tạo mô hình Google Gemini (`gemini-3.5-flash-lite`) |
 | `evaluate.py` | Benchmark đánh giá so sánh tự động 3 Agent qua 4 kịch bản thử nghiệm |
 | `main.py` | Menu CLI tương tác trực tiếp chạy từng Agent hoặc chạy Benchmark |
-| `export_pdf.py` | Script xuất báo cáo Markdown sang PDF / HTML chuẩn đồ họa A4 |
-| `BAO_CAO_BTVN3.md` | Báo cáo học thuật đầy đủ chi tiết kết quả thực nghiệm và đối chiếu lý thuyết |
 | `BAO_CAO_BTVN3.pdf` | Báo cáo định dạng PDF hoàn chỉnh phục vụ nộp bài |
 
 ---
@@ -52,14 +50,6 @@ Menu tương tác sẽ hiển thị các lựa chọn:
 - `3`: Chạy thử nghiệm Agent Mẫu 3 (Mẫu Lai)
 - `4`: Chạy toàn bộ Benchmark so sánh 3 mẫu trên 4 kịch bản
 - `0`: Thoát chương trình
-
-### 4. Xuất Báo Cáo sang PDF
-```bash
-python export_pdf.py
-```
-File báo cáo `BAO_CAO_BTVN3.pdf` sẽ được tạo tự động trong thư mục gốc.
-
----
 
 ## 📊 Kết Quả Thực Nghiệm Tóm Tắt
 
