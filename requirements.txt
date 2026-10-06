@@ -1,0 +1,6 @@
+google-genai
+langchain-google-genai
+langchain-core
+python-dotenv
+markdown
+xhtml2pdf
